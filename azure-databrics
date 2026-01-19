@@ -1,0 +1,13 @@
+RDD
+
+core Characteristics
+Resilient: RDDs are fault-tolerant. If a node fails, Spark uses a "lineage graph" (a record of transformations) to automatically recompute only the lost data.
+Distributed: Data is divided into logical chunks called partitions, which are distributed and processed simultaneously across different nodes in a cluster.
+Dataset: It represents a collection of objects, which can be structured or unstructured data like text files, JSON, or Python collections.
+Immutable: Once an RDD is created, it cannot be changed. Any modification results in the creation of a new RDD. 
+How RDDs Work
+RDDs utilize two types of operations, governed by Lazy Evaluation (computations are only triggered when a result is actually needed): 
+Transformations: Operations that create a new RDD from an existing one.
+Examples: map(), filter(), flatMap(), union(), distinct().
+Actions: Operations that execute the computation and return a result to the driver program or write it to storage.
+Examples: collect(), count(), first(), take(), reduce(), saveAsTextFile(). 
