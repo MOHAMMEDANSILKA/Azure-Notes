@@ -7,3 +7,6 @@ clustering index, non clustering index
 store procedure and triger
 use of cursor in tables
 febanocci series, finding the largest number in given three
+adf pipeline
+normal sql
+
