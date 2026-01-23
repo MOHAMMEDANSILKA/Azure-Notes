@@ -7,6 +7,12 @@ clustering index, non clustering index
 store procedure and triger
 use of cursor in tables
 febanocci series, finding the largest number in given three
-adf pipeline
+adf pipeline 
+adf vs data brics
 normal sql
-
+winow functions detailed, diff between dense rank and rank,row number
+list and distionary
+diff between pandas spark
+scheema evolution
+data brics,
+all the architecture and tools 
