@@ -1,4 +1,14 @@
 answers
+---------------------------------------
+
+Remove NULL values
+df.dropna()
+
+Specific column:
+
+df.dropna(subset=["salary"])
+
+----------------------------------------
 
 Integration Runtime (IR) is the compute and networking layer used by Azure Data Factory (ADF) and Azure Synapse Pipelines to move, transform, and connect data across different environments.
 
