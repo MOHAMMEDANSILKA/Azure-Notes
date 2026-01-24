@@ -1,0 +1,45 @@
+answers
+
+Integration Runtime (IR) is the compute and networking layer used by Azure Data Factory (ADF) and Azure Synapse Pipelines to move, transform, and connect data across different environments.
+
+Think of it as the engine that actually executes your data integration tasks.
+
+Why Integration Runtime is needed
+
+Whenever you:
+
+Copy data (on-prem → cloud, cloud → cloud)
+
+Run data flows
+
+Connect to private networks
+
+Access on-prem databases
+
+👉 Integration Runtime does the work
+
+Without IR, pipelines cannot execute.
+
+Types of Integration Runtime
+1️⃣ Azure Integration Runtime (Azure IR)
+
+Used for:
+
+Cloud-to-cloud data movement
+
+Running Mapping Data Flows
+
+Transformations inside Azure
+
+Characteristics:
+
+Fully managed by Azure
+
+Auto-scales
+
+No infrastructure setup
+
+Example:
+
+ADLS Gen2 → Azure SQL Database
+Blob Storage → Synapse SQL
