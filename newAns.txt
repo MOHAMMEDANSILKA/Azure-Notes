@@ -1,0 +1,11 @@
+o get employees whose name starts with sa:
+
+✅ SQL Query
+SELECT *
+FROM employee
+WHERE name LIKE 'sa%';
+
+🔁 Case-Insensitive (recommended for interviews)
+SELECT *
+FROM employee
+WHERE LOWER(name) LIKE 'sa%';
