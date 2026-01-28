@@ -29,6 +29,8 @@ triggers in adf ___ scedule trigger, tumbling window, event based trigger
 pipeline, copy activity
 employee whos name ends with s
 date_diff syntax
+normalisation
+
 overloading overridding
 pyspark starting syntax
 serviece models
